@@ -24,3 +24,13 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+## API Endpoints
+- **GET /api/orders** - List all orders
+- **POST /api/orders** - Create new order
+- **GET /api/orders/{id}** - Retrieve order
+- **PUT /api/orders/{id}** - Update order
+- **PATCH /api/orders/{id}** - Partial update
+- **DELETE /api/orders/{id}** - Delete order
+- **POST /api/orders/{id}/cancel** - Cancel order
+- **GET /api/orders/pending** - List pending orders

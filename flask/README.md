@@ -20,6 +20,12 @@ pip install -r requirements.txt
 python app.py
 ```
 
+3. Populate database with sample data:
+```bash
+python seed_data.py
+```
+
+
 ## API Endpoints
 - **GET /api/orders** - List all orders
 - **POST /api/orders** - Create new order
